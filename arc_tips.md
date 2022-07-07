@@ -10,3 +10,6 @@ Here we collect tips and tricks for running calculations on ARC
 5. `sacct -j <JobId>` | provides information on the requested job.  There are numerous formatting flags that can be used, all of which can be seen by `sacct -e`
 6. `scontrol show job <JobId>` | provides detailed information about the stated **completed** job
 7. `seff <JobId>` | provides an efficiency report for the stated **completed** job 
+8. `top` | shows you a running measure of CPU and memory use for all the processes on the system you run it on
+9. `htop` | see the utilization of a computer, by core, which is especially useful in parallelization
+10. `strace -o myprogram.strace ./myprogram args` | monitors your program and logs everything it does.  Good for debugging, but is very noisy by default.
