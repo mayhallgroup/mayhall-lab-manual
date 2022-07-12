@@ -13,6 +13,7 @@ Here we collect tips and tricks for running calculations on ARC
 8. `top` | shows you a running measure of CPU and memory use for all the processes on the system you run it on
 9. `htop` | see the utilization of a computer, by core, which is especially useful in parallelization
 10. `strace -o myprogram.strace ./myprogram args` | monitors your program and logs everything it does.  Good for debugging, but is very noisy by default.
+11. `scontrol update job=JOBID name=NEWNAME` | allows you to rename an running job
 
 
 ## ARC Submission scripts
